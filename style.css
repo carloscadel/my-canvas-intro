@@ -1,4 +1,10 @@
+body {
+    margin: 0;
+}
+
 canvas {
     border: 1px solid black;
-    margin: 0 auto;
+    height: calc(100vh - 2px);
+    margin: auto;
+    display: block;
 }
