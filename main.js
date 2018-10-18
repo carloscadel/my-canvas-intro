@@ -1,7 +1,12 @@
 console.log('hola')
 var canvas = document.getElementById('exampleCanvas');
 var ctx = canvas.getContext('2d');
-
+var img = new Image();
+img.src = '/images/shopping.png'
+img.onload = function() {
+    // ctx.drawImage(img, canvas.width/2, canvas.height/2)
+    ctx.drawImage(img, 00, 1000, 1000, 1000*202/204)
+}
 
 function degreesToRadians(degrees) {
     return degrees*Math.PI/180;
